@@ -4,7 +4,7 @@ import sys
 def create_directory_and_files(base_name):
     # set directory and files name
     directory = base_name
-    files = [f'{base_name}_go.md', f'{base_name}_cpp.md', f'{base_name}_py.md', f'READ.ME']
+    files = [f'{base_name}_go.md', f'{base_name}_cpp.md', f'{base_name}_py.md', f'README.md']
 
     if not os.path.exists(directory):
         os.makedirs(directory)
